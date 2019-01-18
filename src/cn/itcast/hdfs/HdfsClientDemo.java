@@ -27,7 +27,7 @@ public class HdfsClientDemo {
     @Test
     public void testupload() throws Exception{
         fs.copyFromLocalFile(new Path("C:/ImbaMallLog.txt"), new Path("/ImbaMallLog.txt.copy"));
-        System.out.println(1);
+        System.out.println(2);
         fs.close();
         
     }
